@@ -13,7 +13,7 @@ app.set('view engine', 'ejs');
 
 app.use('/', require('./server/routes/main'));
 app.use('/about', require('./server/routes/about'))
-
+app.use('/contact', require('./server/routes/contact'))
 
 
 app.listen(PORT, ()=>{

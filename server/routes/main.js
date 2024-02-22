@@ -6,7 +6,7 @@ router.get('',(req, res)=>{
         title:'Nodejs Blog',
         description:'blog application'
     }
-    res.render('./layouts/index', {locals});
+    res.render('./index', {locals});
 })
 
 module.exports= router
